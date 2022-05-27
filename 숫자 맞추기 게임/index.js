@@ -14,7 +14,7 @@ let userInput = document.getElementById("user-input");
 let resultArea = document.getElementById("result-area");
 let resetButton = document.getElementById("reset-button");
 let chances = 5;
-let gameover = false;
+let gameOver = false;
 
 playButton.addEventListener("click", play);
 resetButton.addEventListener("click", reset);
@@ -36,10 +36,12 @@ function play() {
   } else {
     resultArea.textContent = "정답";
   }
-  if (chances < 5) {
-    gameover = true;
+  if (chances < 1) {
+    gameOver = true;
   }
-  if ()
+  if (gameOver == true) {
+    playButton.disabled = true;
+  }
 }
 function reset() {
   userInput.value = "";
