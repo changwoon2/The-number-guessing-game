@@ -7,7 +7,7 @@ body {
   justify-content: center;
   align-items: center;
   font-family: "East Sea Dokdo", cursive;
-  background-image: url("../img/abstract.jpeg");
+  background-image: url("https://cdn.imweb.me/upload/S2017101359e025984d346/0aeb95d5bbb1e.jpg");
 }
 
 .container {
@@ -32,21 +32,21 @@ body {
   height: 80px;
   width: 100px;
   margin-top: 5px;
-  border-radius: 50px;
   font-size: 30pt;
   font-weight: bold;
 }
 .pre-title {
-  font-size: 5vw;
+  font-size: 3vw;
   font-weight: bold;
-  color: blue;
+  color: blueviolet;
 }
 .title {
-  font-size: 7vw;
+  font-size: 3vw;
   font-weight: bold;
+  color: green;
 }
 .sub-title {
-  font-size: 6vw;
+  font-size: 3vw;
   font-weight: bold;
 }
 
@@ -61,12 +61,35 @@ body {
 
 .form-control {
   height: 80px;
-
-  font-size: 3vw;
+  font-size: 2vw;
   margin-right: 20px;
+  margin-top: 50px;
   text-align: center;
 }
 
+#result-area {
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+#chance-area {
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+#play-button {
+  font-size: 2rem;
+  display: block;
+  margin-right: 150px;
+  margin-top: 50px;
+}
+
+#reset-button {
+  font-size: 2rem;
+  display: block;
+  margin-left: 150px;
+  margin-top: -78px;
+}
 @media screen and (max-width: 48rem) {
   .pre-title {
     font-size: 10vw;
